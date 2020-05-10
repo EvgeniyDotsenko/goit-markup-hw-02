@@ -1,0 +1,120 @@
+:root {
+  --primmary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-title-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: rgba(47, 48, 58, 0.8);
+  --secondary-bg: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primmary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* ссылки */
+a {
+  text-decoration: none;
+}
+
+/* хедер */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.auth-nav .link {
+  color: var(--primmary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* стилизация лого */
+.logo {
+  color: #000000;
+}
+.logo span {
+  color: var(--accent-color);
+}
+
+/* герой */
+.hero {
+  background: var(--secondary-bg-color);
+}
+
+.title-hero {
+  color: var(--secondary-title-color);
+}
+
+.button {
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
+}
+
+/* блок Особенности всё унаследовал */
+
+/* Чем мы занимаемся */
+.doing-subtitle {
+  color: var(--secondary-title-color);
+  background-color: var(--secondary-bg-color);
+}
+
+/* блок Наша команда, цвет унаследовал */
+.team {
+  background-color: var(--secondary-bg);
+}
+
+/* блок Постоянные, клиенты цвет унаследовал */
+
+/* футер */
+footer {
+  background-color: #2f303a;
+  color: var(--secondary-title-color);
+}
+
+footer .logo {
+  color: var(--secondary-title-color);
+}
+
+.mail-footer,
+.tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.company-developer {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* фильтр */
+.filter-button {
+  background-color: var(--secondary-bg);
+  color: var(--title-text-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-title-color);
+}
+
+.works p {
+  color: var(--primmary-text-color);
+}
