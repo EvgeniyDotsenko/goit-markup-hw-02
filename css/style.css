@@ -23,6 +23,7 @@ h4,
 h5,
 h6 {
   color: var(--title-text-color);
+  font-size: inherit;
 }
 
 button {
@@ -121,7 +122,7 @@ a {
   color: var(--secondary-title-color);
   background-color: var(--secondary-bg-color);
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
 }
